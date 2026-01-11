@@ -16,6 +16,7 @@ h1 {
 .imgh1 {
     position: relative;
     text-align: center;
+    height: 200px;
 }
 
 .brushes {

@@ -17,6 +17,7 @@ h1 {
     position: relative;
     text-align: center;
     height: 200px;
+    z-index: -1;
 }
 
 .brushes {

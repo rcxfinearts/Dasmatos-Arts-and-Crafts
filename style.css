@@ -7,17 +7,18 @@ h1 {
 }
 
 .imgh1 {
-    background-image: url('pattern.jpeg');
-    background-size: cover; /* Ensures the image covers the entire container area */
-    background-position: center; /* Centers the image */
-    
-    /* Define a height for the container to display the image */
-    height: 200px; 
-    
-    /* Center the h1 text vertically and horizontally */
-    display: flex;
-    justify-content: center;
-    align-items: center
+    position: relative; /* Essential for positioning child elements relative to this container */
+    height: 200px;
+}
+
+.background-image {
+    position: absolute; /* Position the image relative to its parent container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    z-index: -1;
 }
 
 .brushes {

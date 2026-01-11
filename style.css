@@ -6,6 +6,20 @@ h1 {
     text-align: center;
 }
 
+.imgh1 {
+    background-image: url('pattern.jpeg');
+    background-size: cover; /* Ensures the image covers the entire container area */
+    background-position: center; /* Centers the image */
+    
+    /* Define a height for the container to display the image */
+    height: 200px; 
+    
+    /* Center the h1 text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
 .brushes {
     font-family: Helvetica;
     font-size: 32px;
@@ -30,16 +44,6 @@ h1 {
     background-color: lightcoral;
 }
 
-p {
-
-}
-
 h3 {
     font-weight: bold;
-}
-
-span {
-    font-family: Helvetica;
-    font-weight: bold;
-    color: blue;
 }

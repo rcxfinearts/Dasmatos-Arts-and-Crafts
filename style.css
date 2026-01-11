@@ -1,5 +1,4 @@
-.imgh1 h1 {
-    position: relative;
+h1 {
     font-family: Helvetica;
     font-size: 100px;
     color: khaki;
@@ -8,18 +7,13 @@
 }
 
 .imgh1 {
-    position: relative; /* Essential for positioning child elements relative to this container */
-    height: 200px;
-}
-
-.imgh1 .background-image {
-    position: absolute; /* Position the image relative to its parent container */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    z-index: -1;
+    background-image: url('pattern.jpeg');
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image */
+    height: 200px; /* Set a specific height for the container */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally centers the h1 */
+    align-items: center; /* Vertically centers the h1 */
 }
 
 .brushes {

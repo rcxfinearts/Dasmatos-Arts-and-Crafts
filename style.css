@@ -30,14 +30,12 @@ h1 {
     background-color: lightcoral;
 }
 
-h3 {
-
-}
-
 p {
 
 }
 
 span {
-
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
 }

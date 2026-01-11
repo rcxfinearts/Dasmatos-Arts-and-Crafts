@@ -1,4 +1,4 @@
-h1 {
+.imgh1 h1 {
     position: relative;
     font-family: Helvetica;
     font-size: 100px;
@@ -12,7 +12,7 @@ h1 {
     height: 200px;
 }
 
-.background-image {
+.imgh1 .background-image {
     position: absolute; /* Position the image relative to its parent container */
     top: 0;
     left: 0;

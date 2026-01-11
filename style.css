@@ -4,9 +4,13 @@ h1 {
     color: khaki;
     font-weight: bold;
     text-align: center;
+    position: absolute;
+    right: auto;
+    left: auto;
 }
 
 .imgh1 {
+    position: relative;
     background-image: url('pattern.jpeg');
     background-size: cover; /* Ensures the image covers the whole div */
     background-position: center; /* Centers the image */
